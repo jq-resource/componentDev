@@ -1,0 +1,19 @@
+*********** 以下是本系统中所有的组件说明 *********
+
+request 请求资源组件
+
+table   渲染表格组件
+
+slide   图像轮播组件
+
+dialog  对话框组件
+				
+		alert 警告框 			confirm 确认框  
+		prompt 输入框 			toast 提示框
+
+fuzzy  模糊查询组件
+
+pagenation 分页组件 
+
+common  公共组件
+		tool.search  地址栏参数处理函数

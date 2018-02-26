@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>模糊搜索组件</title>
+	<link rel="stylesheet" href="../../css/common.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header-bar"></div>
+		<div class="slide-bar"></div>
+		<div class="content-body">
+			<div class="panel">
+				<div class="panel-head">
+					<div class="panel-head-title">模糊查询与精确查询</div>
+				</div>
+				<div class="panel-body">
+					<div class="form-row">
+						<label class="form-item-head" id="params" data-key="key" data-default="全部"></label>
+						<input type="text" class="input" id="paramVal" data-key="">
+						<input type="checkbox" id="exact">&nbsp;精确匹配
+						<span class="btn btn-info" id="search-btn">搜 索</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel">
+				<div class="panel-body tableNormal" id="infoList"></div>
+			</div>	
+		</div>
+	</div>
+
+	
+
+	<!-- 公共部分 -->
+	<script src="../../js/plugins/jquery.js"></script>
+	<script src="../../js/plugins/sea.js"></script>
+	<!-- 公共部分 END -->
+	<script>
+		seajs.config({
+			 base: "../../js/sea-modules"
+		});
+		seajs.use("../../js/page/fuzzy/fuzzy.js");
+	</script>
+
+</body>
+</html>

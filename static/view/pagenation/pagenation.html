@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分页插件</title>
+	<link rel="stylesheet" href="../../css/common.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header-bar"></div>
+		<div class="slide-bar"></div>
+		<div class="content-body">
+			<div class="panel">
+				<div class="panel-head">
+					<div class="panel-head-title">分页组件</div>
+				</div>
+				<div class="panel-body">
+					<div class="tableNormal" id="hobbyList"></div>
+					<div class="row">
+						<div class="left line-30">共&nbsp;<span class="font font-danger">50</span>&nbsp;条记录</div>
+						<div class="page-menu" id="page-menu"></div>
+						<div class="form-item-head right" id="page-size"></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!-- 公共部分 -->
+	<script src="../../js/plugins/jquery.js"></script>
+	<script src="../../js/plugins/sea.js"></script>
+	<!-- 公共部分 END -->
+	<script>
+		seajs.config({
+			 base: "../../js/sea-modules"
+		});
+		seajs.use("../../js/page/pagenation/pagenation.js");
+	</script>
+
+</body>
+</html>

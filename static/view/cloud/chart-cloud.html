@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>云组件</title>
+	<link rel="stylesheet" href="../../css/common.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header-bar"></div>
+		<div class="slide-bar"></div>
+		<div class="content-body">
+			<div class="panel">
+				<div class="panel-head">
+					<div class="panel-head-title">字符云</div>
+				</div>
+				<div class="panel-body">
+					<div id="cloud" style="position:relative;width:1000px;height:800px;border:1px solid #ccc;margin:10px auto;"></div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!-- 公共部分 -->
+	<script src="../../js/plugins/jquery.js"></script>
+	<script src="../../js/plugins/sea.js"></script>
+	<!-- 公共部分 END -->
+	<script>
+		seajs.config({
+			 base: "../../js/sea-modules"
+		});
+		seajs.use("../../js/page/cloud/chart-cloud.js");
+	</script>
+	
+		
+</body>
+</html>

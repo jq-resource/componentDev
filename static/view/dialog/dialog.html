@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>对话框组件</title>
+	<link rel="stylesheet" href="../../css/common.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header-bar"></div>
+		<div class="slide-bar"></div>
+		<div class="content-body">
+			<div class="panel">
+				<div class="panel-head">
+					<div class="panel-head-title">对话框</div>
+				</div>
+				<div class="panel-body">
+					<p class="font font-info">点击查看对话框</p><br/>
+					<span class="btn btn-warning" id="alert">警告框</span>
+					<span class="btn btn-info" id="toast">模态提示框</span>
+					<span class="btn btn-danger" id="confirm">确认框</span>
+					<span class="btn btn-success" id="prompt">输入框</span>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!-- 公共部分 -->
+	<script src="../../js/plugins/jquery.js"></script>
+	<script src="../../js/plugins/sea.js"></script>
+	<!-- 公共部分 END -->
+	<script>
+		seajs.config({
+			 base: "../../js/sea-modules"
+		});
+		seajs.use("../../js/page/dialog/dialog.js");
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联动菜单</title>
+	<link rel="stylesheet" href="../../css/common.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header-bar"></div>
+		<div class="slide-bar"></div>
+		<div class="content-body">
+			<div class="panel">
+				<div class="panel-head">
+					<div class="panel-head-title">联动菜单</div>
+				</div>
+				<div class="panel-body">
+					<div class="form-row">
+						<span class="form-item-head">地区：</span>
+						<label class="form-item-head" data-key="provinceId" data-val="provinceName" data-default="请选择省份" id="province"></label>	
+						<label class="form-item-head" data-key="cityId" data-val="cityName" data-default="请选择城市" id="city"></label>	
+						<label class="form-item-head" data-key="townId" data-val="townName" data-default="请选择地区" id="town"></label>	
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+
+	
+
+	<!-- 公共部分 -->
+	<script src="../../js/plugins/jquery.js"></script>
+	<script src="../../js/plugins/sea.js"></script>
+	<!-- 公共部分 END -->
+	<script>
+		seajs.config({
+			 base: "../../js/sea-modules"
+		});
+		seajs.use("../../js/page/select/linkage.js");
+	</script>
+</body>
+</html>

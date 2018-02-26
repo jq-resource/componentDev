@@ -1,0 +1,72 @@
+[
+	{
+		"menuName":"对话框组件",
+		"iconClass":"bgdialog",
+		"subMenu":[
+			{
+				"submenuName":"对话框",
+				"href":"../dialog/dialog.html"
+			}
+		]
+	},{
+		"menuName":" 模糊查询组件",
+		"iconClass":"bgfuzzy",
+		"subMenu":[
+			{
+				"submenuName":"模糊匹配&&表格组件",
+				"href":"../fuzzy/fuzzy.html"
+			},{
+				"submenuName":"模糊查询",
+				"href":"../fuzzy/fuzzy_2.html"
+			}
+		]
+	},{
+		"menuName":" 下拉框组件",
+		"iconClass":"bgselect",
+		"subMenu":[
+			{
+				"submenuName":"三级联动",
+				"href":"../select/linkage.html"
+			}
+		]
+	},{
+		"menuName":" 轮播组件",
+		"iconClass":"bgslide",
+		"subMenu":[
+			{
+				"submenuName":"图像轮播&&表格组件",
+				"href":"../slide/slide.html"
+			}
+		]
+	},{
+		"menuName":" 分页组件",
+		"iconClass":"bgpagenation",
+		"subMenu":[
+			{
+				"submenuName":"kkpager风格",
+				"href":"../pagenation/pagenation.html"
+			}
+		]
+	},{
+		"menuName":" 树形组件",
+		"iconClass":"bgtree",
+		"subMenu":[
+			{
+				"submenuName":"树形菜单",
+				"href":"../tree/binary.html"
+			}
+		]
+	},{
+		"menuName":" 云组件",
+		"iconClass":"bgcloud",
+		"subMenu":[
+			{
+				"submenuName":"字符云",
+				"href":"../cloud/chart-cloud.html"
+			},{
+				"submenuName":"照片墙",
+				"href":"../cloud/img-cloud.html"
+			}
+		]
+	}
+]
